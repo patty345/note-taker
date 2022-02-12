@@ -9,7 +9,7 @@ router.get('/notes', function(req, res) {
 });
 
 // POST request
-outer.post('/notes', (req, res) => {
+router.post('/notes', (req, res) => {
     saveData
         .addNote(req.body)
         .then((note) => res.json(note))
