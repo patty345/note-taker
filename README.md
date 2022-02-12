@@ -22,3 +22,28 @@ An Express.js application that can be used to write and save notes.
 - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
 ## Usage
+- This app allows user to capture notes
+- App will greet you with a get started page
+- App displays interface to start typing notes
+- App saves the notes and displays them on the side 
+- App deletes the notes when not needed it
+
+## Screen Captions
+
+![Landing Page](/public/assets/images/LandingPage.png)
+![Notes Page](/public/assets/images/NotesPage.png)
+![Taking Notes](/public/assets/images/NotesTaker.png)
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- Inquirer
+- UUID
+- NPM
+
+## Output
+
+- The output of this week challange was to build the backend 
+- Combine it with the provided frontend
+- Finally deploy application to Heroku
